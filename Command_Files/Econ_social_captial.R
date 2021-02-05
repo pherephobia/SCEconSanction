@@ -188,6 +188,7 @@ descriptive1 <- sample %>% dplyr::select(
 ) %>% drop_na() %>% describe() %>% dplyr::select(
   c(2, 3, 4, 8, 9)
 )
+saveRDS(sample, "Datasets/sample.rds")
 descriptive1
 descriptive2 <- sample %>% dplyr::select(
   sanctionoutcome, 
@@ -242,9 +243,30 @@ print(lmtest::coeftest(model1, vcov=vcovHC(model1, "HC1")), digits = 2)
 print(lmtest::coeftest(model2, vcov=vcovHC(model2, "HC1")), digits = 1)
 print(lmtest::coeftest(model3, vcov=vcovHC(model3, "HC1")), digits = 1)
 
+table1 <- list(
+  model1, model2, model3
+)
+
 library("sandwich")
 library("lmtest")
-install.packages("blorr")
+library(modelsummary)
+label <- c("Trust" = "trust",
+           "contig" = "Contig",
+           "lndistance" = "Distance",
+           "lntarget_gdppc_gle" = "lnGDPpc",
+           "salience_dummy2" = "Salience",
+           "alliance2" = "Alliance",
+           "v2x_polyarchy" = "Target Democracy",
+           "m_polparty1" = "Membership: Political Party",
+           "m_profassociation1" = "Membership: Prof. Association")
+
+msummary(table1, coef_map = label,
+         fmt = 3,
+         estimate  = c("{estimate} ({std.error}){stars}"),
+         vcov = "robust",
+         statistic = NULL,
+         coef_omit = "Intercept",
+         conf_level = 0.90, "markdown")
 
 
 
@@ -432,9 +454,7 @@ install.packages("blorr")
 1-(model5$deviance/model5$null.deviance)
 1-(model6$deviance/model6$null.deviance)
 1-(model7$deviance/model7$null.deviance)
-table1 <- list(
-  model1, model2, model3
-)
+
 summary(model1)
 library(sandwich)
 library(modelsummary)
