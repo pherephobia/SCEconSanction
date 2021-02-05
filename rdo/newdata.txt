@@ -1,0 +1,24 @@
+
+===============================================================================================================
+Statistic                                           N     Mean    St. Dev.   Min  Pctl(25)  Pctl(75)     Max   
+---------------------------------------------------------------------------------------------------------------
+sanctions_sc_KimYW_merge.sanctionoutcome           660    0.259     0.438   0.000   0.000     1.000     1.000  
+sanctions_sc_KimYW_merge.trust                     402   32.940    12.513   4.900  27.125    38.400    64.800  
+sanctions_sc_KimYW_merge.m_polparty1               359   11.201    12.056   0.000   2.700    13.000    49.300  
+sanctions_sc_KimYW_merge.m_profassociation1        359   11.564     9.205   0.000   4.400    15.900    34.300  
+sanctions_sc_KimYW_merge.m_humanrights1            357    7.503    10.546   0.100   0.900     7.100    41.800  
+sanctions_sc_KimYW_merge.m_religious1              346   27.115    23.070   0.000   7.200    43.650    87.500  
+sanctions_sc_KimYW_merge.c_government1             217   10.094     9.974   1.100   4.600    11.500    76.000  
+sanctions_sc_KimYW_merge.c_parliament1             375   11.139    11.848   0.800   3.600    13.700    75.000  
+sanctions_sc_KimYW_merge.c_polparty1               240    7.499     9.008   0.500   2.100     8.500    53.800  
+sanctions_sc_KimYW_merge.c_justicelegalsyscourts1  273   16.511     9.026   1.300  10.700    19.000    39.700  
+sanctions_sc_KimYW_merge.c_armedforces1            377   25.504    18.299   2.700   8.900    35.800    79.200  
+sanctions_sc_KimYW_merge.c_churches1               378   28.019    21.403   1.400   8.400    44.900    98.000  
+sanctions_sc_KimYW_merge.c_police1                 374   14.691     8.905   0.600   9.400    18.100    57.700  
+sanctions_sc_KimYW_merge.contig                   5,362   5.926     0.531   1.000   6.000     6.000     6.000  
+sanctions_sc_KimYW_merge.distance                 5,827 5,474.113 2,138.760 0.000 4,225.000 7,225.000 9,459.000
+sanctions_sc_KimYW_merge.lntarget_gdppc_gle       5,641   7.434     1.228   4.188   6.529     8.353    10.672  
+sanctions_sc_KimYW_merge.salience_dummy2          5,827   0.025     0.157   0.000   0.000     0.000     1.000  
+sanctions_sc_KimYW_merge.alliance2                5,827   0.279     0.448   0.000   0.000     1.000     1.000  
+sanctions_sc_KimYW_merge.targetdem                5,156   0.215     0.411   0.000   0.000     0.000     1.000  
+---------------------------------------------------------------------------------------------------------------
