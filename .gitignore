@@ -23,23 +23,22 @@ SCEconSanction/Documents
 *.sqlite
 .Rproj.user
 *.dta
-Documents
-qog_std_ts_jan20.dta
-WVS_TimeSeries_R_v1_5.rdata
-qog_std_jan20.pdf
-submission.zip
-submission_v210119.zip
-submission
-social capital_order.docx
-revisions.docx
-Review for Social Capital and the Success of Economic Sanctions.pdf
-Notes from SHP.docx
-HurKimParkWhangv210118.docx
-Hur_Kim_Park_Whang_social capital.docx
-Hur_Kim_Park_Whang_social capital_v210117.docx
-Hur_Kim_Park_Whang_social capital - Copy.docx
-rdo
 *.pdf
 *.docx
 *.Rmd
 *.tex
+qog_std_jan20.pdf
+qog_std_ts_jan20.dta
+WVS_TimeSeries_R_v1_5.rdata
+Hur_Kim_Park_Whang_social capital - Copy
+Hur_Kim_Park_Whang_social capital
+Hur_Kim_Park_Whang_social capital_v210117
+HurKimParkWhangv210118
+Lit_Review_Sanghoon
+Notes from SHP
+Review for Social Capital and the Success of Economic Sanctions
+revisions
+submission
+social capital_order
+submission_v210119
+rdo
