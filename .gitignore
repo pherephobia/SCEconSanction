@@ -23,6 +23,7 @@ node_modules/
 *.sqlite
 .Rproj.user
 *.dta
+Documents
 qog_std_ts_jan20.dta
 WVS_TimeSeries_R_v1_5.rdata
 qog_std_jan20.pdf
