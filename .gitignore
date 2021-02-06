@@ -23,7 +23,6 @@ SCEconSanction/Documents
 *.sqlite
 .Rproj.user
 *.dta
-*.pdf
 *.docx
 *.Rmd
 *.tex
