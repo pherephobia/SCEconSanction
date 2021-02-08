@@ -15,7 +15,7 @@ wp-content/plugins/hello.php
 wp-content/themes/twenty*/
 
 # ignore node dependency directories
-SCEconSanction/Documents
+SCEconSanction/Documents/
 
 # ignore log files and databases
 *.log
@@ -26,6 +26,7 @@ SCEconSanction/Documents
 *.docx
 *.Rmd
 *.tex
+Documents/
 qog_std_jan20.pdf
 qog_std_ts_jan20.dta
 WVS_TimeSeries_R_v1_5.rdata
